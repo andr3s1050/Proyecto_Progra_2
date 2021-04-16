@@ -12,8 +12,8 @@ El propósito general es realizar cálculos de varios tipos con datos proporcion
 
 ## Tecnologías
 
--Java
--Netbeans
+- Java
+- Netbeans
 
 ## Estado
 
