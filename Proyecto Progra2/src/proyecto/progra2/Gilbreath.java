@@ -8,10 +8,6 @@ package proyecto.progra2;
 import java.util.Scanner;
 import static java.lang.Math.abs;
 
-/**
- *
- * @author jfeli
- */
 public class Gilbreath {
 
     int Primos[];
@@ -26,11 +22,11 @@ public class Gilbreath {
         int count = 0;
         int num = 2;
 
-        while (count != n) { 
+        while (count != n) {
             boolean prime = true;
-            for (int i = 2; i <= Math.sqrt(num); i++) { 
+            for (int i = 2; i <= Math.sqrt(num); i++) {
                 if (num % i == 0) {
-                    prime = false; 
+                    prime = false;
                     break;
                 }
             }
@@ -42,7 +38,7 @@ public class Gilbreath {
             }
             num++;
         }
-        
+
     }
 
     public void procedimiento() {

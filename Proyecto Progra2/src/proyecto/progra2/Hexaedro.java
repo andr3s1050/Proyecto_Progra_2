@@ -7,10 +7,6 @@ package proyecto.progra2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author jfeli
- */
 public class Hexaedro extends Figuras3D {
     
        Scanner entrada= new Scanner(System.in);

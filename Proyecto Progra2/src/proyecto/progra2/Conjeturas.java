@@ -5,10 +5,6 @@
  */
 package proyecto.progra2;
 
-/**
- *
- * @author jfeli
- */
 public interface Conjeturas {
 
     public abstract void procedimiento();

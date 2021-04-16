@@ -7,39 +7,34 @@ package proyecto.progra2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author jfeli
- */
 public class Ulmann implements Conjeturas {
-    
-    Scanner entrada= new Scanner (System.in);
-    public Ulmann(){
-        String nombre= "Conjetura de Ulmann";
-        
+
+    Scanner entrada = new Scanner(System.in);
+
+    public Ulmann() {
+        String nombre = "Conjetura de Ulmann";
+
     }
-    
-    public void procedimiento(){
+
+    public void procedimiento() {
         int num;
         System.out.println("Digite un número");
-        num= entrada.nextInt();
-        System.out.println("La conjetura del número " + num + " es: "  );
-        if(num>0){
-            
-            while(num !=1){
+        num = entrada.nextInt();
+        System.out.println("La conjetura del número " + num + " es: ");
+        if (num > 0) {
+
+            while (num != 1) {
                 System.out.println(num);
-                if(num%2==0){
-                    num= num/2;
-                }else{
-                    num= (num*3)+1;
+                if (num % 2 == 0) {
+                    num = num / 2;
+                } else {
+                    num = (num * 3) + 1;
                 }
             }
-        }else{
+        } else {
             System.out.println("El número ingresado no es válido");
         }
-        
+
     }
-    
-   
-    
+
 }

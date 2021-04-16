@@ -7,16 +7,12 @@ package proyecto.progra2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author jfeli
- */
 public class Romboide extends Figuras2D {
 
     Scanner entrada = new Scanner(System.in);
 
     public Romboide() {
-        nombre_figura = "Trapecio";
+        nombre_figura = "Romboide";
         color = "negro ";
         área = 0;
     }
@@ -47,7 +43,7 @@ public class Romboide extends Figuras2D {
 
     public void MostrarDatos() {
         System.out.println("El nombre de la figura es: " + nombre_figura);
-        System.out.println("El color de la figura es: " + color + "\n"); 
+        System.out.println("El color de la figura es: " + color + "\n");
 
     }
 

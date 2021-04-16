@@ -7,10 +7,6 @@ package proyecto.progra2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author jfeli
- */
 public class Rectángulo extends Figuras2D {
 
     Scanner entrada = new Scanner(System.in);

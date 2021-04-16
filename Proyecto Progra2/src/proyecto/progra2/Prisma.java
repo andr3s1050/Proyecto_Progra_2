@@ -7,10 +7,6 @@ package proyecto.progra2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author jfeli
- */
 public class Prisma extends Figuras3D {
 
     Scanner entrada = new Scanner(System.in);
@@ -23,10 +19,6 @@ public class Prisma extends Figuras3D {
 
     }
 
-    /*
-    sout opción
-    switch (case 1 (triangular), case 2 (cubo, rectangulo), case 3 más lados (sout pida lados)
-     */
     public void Superficie() {
         double l, ap, h;
         System.out.println("Digite el valor de uno de los lados: ");
@@ -41,7 +33,6 @@ public class Prisma extends Figuras3D {
 
     }
 
-    //hace falta terminar el volumen del prisma
     public void Volumen() {
         double l, ap, h;
         System.out.println("Digite el valor de uno de los lados: ");
@@ -51,8 +42,8 @@ public class Prisma extends Figuras3D {
         System.out.println("Digite el valor de la altura: ");
         h = entrada.nextDouble();
 
-        volumen = 3*l * ap*h;
-        System.out.printf(" El valor del volumen es: %.2f", volumen , "\n");
+        volumen = 3 * l * ap * h;
+        System.out.printf(" El valor del volumen es: %.2f", volumen, "\n");
     }
 
     public void MostrarDatos() {

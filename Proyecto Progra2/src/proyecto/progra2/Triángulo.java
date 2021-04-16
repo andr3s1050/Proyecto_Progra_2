@@ -56,7 +56,7 @@ public class Triángulo extends Figuras2D {
         lado = entrada.nextDouble();
 
         perímetro = lado * 3;
-        System.out.printf("El perímetro del triángulo es: %.2f ", perímetro , "\n");
+        System.out.printf("El perímetro del triángulo es: %.2f ", perímetro, "\n");
     }
 
     public void MostrarDatos() {

@@ -5,10 +5,6 @@
  */
 package proyecto.progra2;
 
-/**
- *
- * @author jfeli
- */
 abstract class Figuras2D {
 
     public String nombre_figura;

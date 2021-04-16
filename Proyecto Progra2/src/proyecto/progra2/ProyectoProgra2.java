@@ -7,15 +7,8 @@ package proyecto.progra2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author jfeli
- */
 public class ProyectoProgra2 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int menu;
@@ -27,16 +20,16 @@ public class ProyectoProgra2 {
         Figuras2D trapecio1 = new Trapecio();
         Figuras2D romboide1 = new Romboide();
         Figuras2D poligono1 = new Polígono();
-        
-        Figuras3D piramide1= new Pirámide();
-        Figuras3D esfera1= new Esfera();
-        Figuras3D cilindro1= new Cilindro();
-        Figuras3D hexaedro1= new Hexaedro();
-        Figuras3D prisma1= new Prisma();
-        Figuras3D cono1= new Cono();
-        
-        Conjeturas ulmann1= new Ulmann();
-        Gilbreath gilbreath1= new Gilbreath();
+
+        Figuras3D piramide1 = new Pirámide();
+        Figuras3D esfera1 = new Esfera();
+        Figuras3D cilindro1 = new Cilindro();
+        Figuras3D hexaedro1 = new Hexaedro();
+        Figuras3D prisma1 = new Prisma();
+        Figuras3D cono1 = new Cono();
+
+        Conjeturas ulmann1 = new Ulmann();
+        Gilbreath gilbreath1 = new Gilbreath();
 
         do {
             System.out.println("\nElija una opción: ");
@@ -327,11 +320,11 @@ public class ProyectoProgra2 {
                         conjetura = entrada.nextInt();
 
                         switch (conjetura) {
-                            case 1: //ulmann
+                            case 1: //Ulmann
                                 ulmann1.procedimiento();
                                 break;
 
-                            case 2:
+                            case 2: //Gilbreath
                                 gilbreath1.primos();
                                 gilbreath1.procedimiento();
                                 break;
