@@ -2,9 +2,9 @@
 
 ## Contenido
 
--Propósito
--Tecnologías
--Estado
+- Propósito
+- Tecnologías
+- Estado
 
 ## Propósito
 
